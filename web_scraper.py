@@ -33,7 +33,7 @@ try:
                             `usd/hrk` DECIMAL(7,6) NOT NULL,
                             `btc/hrk` DECIMAL(8,2) NOT NULL,
                             PRIMARY KEY (`date`),
-                            UNIQUE INDEX `date_UNIQUE` (`date` ASC) VISIBLE);"""
+                            UNIQUE INDEX `date_UNIQUE` (`date` ASC VISIBLE);"""
 
     insert_data_query = """INSERT INTO exchange_rates VALUES (%s, %s, %s, %s)"""
 
