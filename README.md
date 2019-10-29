@@ -14,7 +14,7 @@ This is a simple GUI application built using Python 3.7 and Tkinter library. It 
 Environment/Requirements:
 - Windows 10 (64-bit)
 - Python 3.7
-- Redis 3.2
+- Redis 3.2	-> https://github.com/microsoftarchive/redis/releases (can be installed as a Windows service, run on port 6379)
 - Python libraries:
 	- matplotlib	3.1.0
 	- pandas 	0.25.1
